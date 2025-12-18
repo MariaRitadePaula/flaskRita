@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <h1>Formulário</h1>
+
+    <form method="post">
+        <input type="text" name="nome" placeholder="Nome"><br><br>
+        <input type="email" name="email" placeholder="Email"><br><br>
+        <button>Enviar</button>
+    </form>
+
+    <a href="/">Voltar</a>
+
+</body>
+</html>
